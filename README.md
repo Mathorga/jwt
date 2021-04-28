@@ -1,14 +1,23 @@
 # jwt
 
-JSON Web Token encoder/decoder
+A basic and stateless JSON Web Token decoding library. Allows for easy and quick JWT decoding for those "I just need that simple thing" situations.
 
-## Getting Started
+## Usage
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+The library exposes two high level functions for quick decoding.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+Header:
+```dart
+import 'package:jwt/jwt.dart' as jwt;
+
+String token;
+Map<String, String> header = jwt.parseHeader(token);
+```
+
+Payload:
+```dart
+import 'package:jwt/jwt.dart' as jwt;
+
+String token;
+Map<String, dynamic> payload = jwt.parsePayload(token);
+```
