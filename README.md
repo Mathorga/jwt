@@ -1,5 +1,3 @@
-# jwt
-
 A basic and stateless JSON Web Token decoding library. Allows for easy and quick JWT decoding for those "I just need that simple thing" situations.
 
 ## Usage
