@@ -1,8 +1,8 @@
 name: jwt
 description: JSON Web Token encoder/decoder
 version: 0.0.1
-homepage:
-repository:
+homepage: https://github.com/Mathorga/jwt
+repository: https://github.com/Mathorga/jwt
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
