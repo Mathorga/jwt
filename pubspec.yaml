@@ -1,0 +1,17 @@
+name: jwt
+description: JSON Web Token encoder/decoder
+version: 0.0.1
+homepage:
+repository:
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+
+dev_dependencies:
+  test: ^1.17.2
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
